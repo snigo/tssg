@@ -1,0 +1,24 @@
+{
+  "name": "tssg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "echo \"Formatting...\"",
+    "lint:fix": "echo \"Linting...\"",
+    "lint:staged": "lint-staged",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/jest": "^29.5.6",
+    "eslint-config-tssg-pkg": "workspace:^",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.0.2",
+    "prettier": "^3.0.3",
+    "tsconfig": "workspace:^",
+    "turbo": "^1.10.16"
+  }
+}

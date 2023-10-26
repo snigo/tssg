@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-tssg-pkg",
+  "version": "0.0.1",
+  "main": "index.json",
+  "private": true,
+  "sideEffects": false,
+  "license": "Apache-2.0",
+  "files": [
+    "index.json"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "eslint": "^8.52.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jest": "^27.4.3",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
+  }
+}
