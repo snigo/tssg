@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "format": "echo \"Formatting...\"",
-    "lint:fix": "echo \"Linting...\"",
+    "format": "turbo run format",
+    "lint:fix": "turbo run lint:fix",
     "lint:staged": "lint-staged",
     "prepare": "husky install"
   },
