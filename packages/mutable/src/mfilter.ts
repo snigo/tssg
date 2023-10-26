@@ -2,6 +2,7 @@ import type { ArrayCallback, ArrayElement } from './types.js';
 
 /**
  * Filters the array in place using provided callback function
+ * Works just like Array.prototype.filter except mutates array
  */
 function mfilter<TArray extends unknown[], TContext = null>(
   array: TArray,
