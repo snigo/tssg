@@ -106,6 +106,12 @@ class AliasMap<K, V, A> extends Map<K | A, V> {
     }
     return false;
   }
+
+  clear() {
+    super.clear();
+    _AK_CLOSURE_.set(this, new Map<A, K>());
+    _KA_CLOSURE_.set(this, new SetMultimap<K, A>());
+  }
 }
 
 export default AliasMap;

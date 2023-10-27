@@ -65,6 +65,11 @@ class Bimap<K, V> extends Map<K, V> {
     }
     return false;
   }
+
+  clear() {
+    super.clear();
+    _VALUES_CLOSURE_.set(this, new Map<V, K>());
+  }
 }
 
 export default Bimap;
