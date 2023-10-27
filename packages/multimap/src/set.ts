@@ -1,39 +1,49 @@
+import type { Entry, MultiEntry, NonPrimitiveIterable } from './types.js';
+import { isNonPrimitiveIterable } from './utils.js';
+
 class SetMultimap<K, V> extends Map {
-  /**
-   * Overrides constructor with correct type
-   * @param entries Optional array of Map Entries
-   */
   constructor(
     entries?:
-      | (readonly [K, Set<V>])[]
+      | MultiEntry<K, V>[]
+      | Entry<K, V>[]
       | null
-      | SetMultimap<K, V>
-      | Map<K, Set<V>>,
+      | Map<K, V>
+      | Map<K, V[]>,
   ) {
     super();
     if (entries == null) return;
-    const _entries =
-      entries instanceof Map
-        ? ([...entries.entries()] as (readonly [K, Set<V>])[])
-        : entries;
-    _entries.forEach(([key, value]) => {
-      super.set(key, value);
+    const entryArray =
+      entries instanceof Map ? [...entries.entries()] : [...entries];
+    entryArray.forEach(([key, value]) => {
+      if (isNonPrimitiveIterable(value)) {
+        super.set(key, new Set(value));
+      } else {
+        this.set(key, value);
+      }
     });
   }
 
-  /**
-   * Adds value to the multimap
-   *
-   * @param key Map key
-   * @param value Value to set
-   * @returns SetMultimap
-   */
   set(key: K, value: V) {
     if (!this.has(key)) {
-      super.set.call(this, key, new Set());
+      super.set(key, new Set());
     }
     this.get(key)?.add(value);
     return this;
+  }
+
+  setAll(key: K, values: NonPrimitiveIterable<V>) {
+    [...values].forEach(value => {
+      this.set(key, value);
+    });
+    return this;
+  }
+
+  replaceAll(key: K, values: NonPrimitiveIterable<V>) {
+    return super.set(key, new Set(values));
+  }
+
+  hasEntry(key: K, value: V) {
+    return !!this.get(key)?.has(value);
   }
 
   forEach(
@@ -45,6 +55,14 @@ class SetMultimap<K, V> extends Map {
 
   get(key: K) {
     return super.get.call(this, key) as Set<V> | undefined;
+  }
+
+  deleteValue(key: K, value: V) {
+    const set = this.get(key);
+    if (set) {
+      return set.delete(value);
+    }
+    return false;
   }
 }
 
