@@ -30,6 +30,33 @@ importers:
         specifier: ^1.10.16
         version: 1.10.16
 
+  packages/cf:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.6
+        version: 29.5.6
+      '@types/node':
+        specifier: ^20.8.7
+        version: 20.8.7
+      eslint-config-tssg-pkg:
+        specifier: workspace:^
+        version: link:../eslint-config-tssg-pkg
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.7)
+      prettier:
+        specifier: ^3.0.3
+        version: 3.0.3
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.23.2)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:^
+        version: link:../tsconfig
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
   packages/eslint-config-tssg-pkg:
     dependencies:
       '@typescript-eslint/eslint-plugin':
