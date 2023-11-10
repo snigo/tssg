@@ -20,5 +20,9 @@
     "prettier": "^3.0.3",
     "tsconfig": "workspace:^",
     "turbo": "^1.10.16"
+  },
+  "dependencies": {
+    "@tssg/multimap": "workspace:^",
+    "@tssg/mutable": "workspace:^"
   }
 }
