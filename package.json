@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@tssg/multimap": "workspace:^",
-    "@tssg/mutable": "workspace:^"
+    "@tssg/mutable": "workspace:^",
+    "@tssg/precise": "workspace:^"
   }
 }
