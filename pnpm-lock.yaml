@@ -29,7 +29,7 @@ importers:
         version: 9.0.11
       lint-staged:
         specifier: ^15.0.2
-        version: 15.2.4
+        version: 15.2.5
       prettier:
         specifier: ^3.0.3
         version: 3.2.5
@@ -2519,7 +2519,7 @@ packages:
       '@nodelib/fs.walk': 1.2.8
       glob-parent: 5.1.2
       merge2: 1.4.1
-      micromatch: 4.0.6
+      micromatch: 4.0.7
     dev: false
 
   /fast-glob@3.3.2:
@@ -3272,7 +3272,7 @@ packages:
       '@types/stack-utils': 2.0.3
       chalk: 4.1.2
       graceful-fs: 4.2.11
-      micromatch: 4.0.6
+      micromatch: 4.0.7
       pretty-format: 29.7.0
       slash: 3.0.0
       stack-utils: 2.0.6
@@ -3572,8 +3572,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /lint-staged@15.2.4:
-    resolution: {integrity: sha512-3F9KRQIS2fVDGtCkBp4Bx0jswjX7zUcKx6OF0ZeY1prksUyKPRIIUqZhIUYAstJfvj6i48VFs4dwVIbCYwvTYQ==}
+  /lint-staged@15.2.5:
+    resolution: {integrity: sha512-j+DfX7W9YUvdzEZl3Rk47FhDF6xwDBV5wwsCPw6BwWZVPYJemusQmvb9bRsW23Sqsaa+vRloAWogbK4BUuU2zA==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     dependencies:
@@ -3583,7 +3583,7 @@ packages:
       execa: 8.0.1
       lilconfig: 3.1.1
       listr2: 8.2.1
-      micromatch: 4.0.6
+      micromatch: 4.0.7
       pidtree: 0.6.0
       string-argv: 0.3.2
       yaml: 2.4.2
@@ -3676,20 +3676,12 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /micromatch@4.0.6:
-    resolution: {integrity: sha512-Y4Ypn3oujJYxJcMacVgcs92wofTHxp9FzfDpQON4msDefoC0lb3ETvQLOdLcbhSwU1bz8HrL/1sygfBIHudrkQ==}
-    engines: {node: '>=8.6'}
-    dependencies:
-      braces: 3.0.3
-      picomatch: 4.0.2
-
   /micromatch@4.0.7:
     resolution: {integrity: sha512-LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==}
     engines: {node: '>=8.6'}
     dependencies:
       braces: 3.0.3
       picomatch: 2.3.1
-    dev: false
 
   /mimic-fn@2.1.0:
     resolution: {integrity: sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==}
@@ -3923,10 +3915,6 @@ packages:
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
-
-  /picomatch@4.0.2:
-    resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
-    engines: {node: '>=12'}
 
   /pidtree@0.6.0:
     resolution: {integrity: sha512-eG2dWTVw5bzqGRztnHExczNxt5VGsE6OwTeCG3fdUf9KBsZzO3R5OIIIzWR+iZA0NtZ+RDVdaoE2dK1cn6jH4g==}
