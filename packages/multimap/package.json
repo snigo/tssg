@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.6",
-    "@types/node": "^20.8.7",
+    "@types/node": "^22.0.0",
     "eslint-config-tssg-pkg": "workspace:^",
     "jest": "^29.7.0",
     "prettier": "^3.0.3",
