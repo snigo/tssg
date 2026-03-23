@@ -28,7 +28,7 @@
     "prettier": "^3.0.3",
     "ts-jest": "^29.1.1",
     "tsconfig": "workspace:^",
-    "typescript": "^5.2.2"
+    "typescript": "^6.0.0"
   },
   "dependencies": {
     "@tssg/precise": "workspace:^"
