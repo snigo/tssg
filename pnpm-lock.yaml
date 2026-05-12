@@ -47,19 +47,19 @@ importers:
         version: 30.0.0
       '@types/node':
         specifier: ^24.0.0
-        version: 24.12.3
+        version: 24.12.4
       eslint-config-tssg-pkg:
         specifier: workspace:^
         version: link:../eslint-config-tssg-pkg
       jest:
         specifier: ^30.0.0
-        version: 30.4.2(@types/node@24.12.3)
+        version: 30.4.2(@types/node@24.12.4)
       prettier:
         specifier: ^3.0.3
         version: 3.8.3
       ts-jest:
         specifier: ^29.1.1
-        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.3))(typescript@6.0.3)
+        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.4))(typescript@6.0.3)
       tsconfig:
         specifier: workspace:^
         version: link:../tsconfig
@@ -101,19 +101,19 @@ importers:
         version: 30.0.0
       '@types/node':
         specifier: ^24.0.0
-        version: 24.12.3
+        version: 24.12.4
       eslint-config-tssg-pkg:
         specifier: workspace:^
         version: link:../eslint-config-tssg-pkg
       jest:
         specifier: ^30.0.0
-        version: 30.4.2(@types/node@24.12.3)
+        version: 30.4.2(@types/node@24.12.4)
       prettier:
         specifier: ^3.0.3
         version: 3.8.3
       ts-jest:
         specifier: ^29.1.1
-        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.3))(typescript@6.0.3)
+        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.4))(typescript@6.0.3)
       tsconfig:
         specifier: workspace:^
         version: link:../tsconfig
@@ -128,19 +128,19 @@ importers:
         version: 30.0.0
       '@types/node':
         specifier: ^24.0.0
-        version: 24.12.3
+        version: 24.12.4
       eslint-config-tssg-pkg:
         specifier: workspace:^
         version: link:../eslint-config-tssg-pkg
       jest:
         specifier: ^30.0.0
-        version: 30.4.2(@types/node@24.12.3)
+        version: 30.4.2(@types/node@24.12.4)
       prettier:
         specifier: ^3.0.3
         version: 3.8.3
       ts-jest:
         specifier: ^29.1.1
-        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.3))(typescript@6.0.3)
+        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.4))(typescript@6.0.3)
       tsconfig:
         specifier: workspace:^
         version: link:../tsconfig
@@ -155,19 +155,19 @@ importers:
         version: 30.0.0
       '@types/node':
         specifier: ^24.0.0
-        version: 24.12.3
+        version: 24.12.4
       eslint-config-tssg-pkg:
         specifier: workspace:^
         version: link:../eslint-config-tssg-pkg
       jest:
         specifier: ^30.0.0
-        version: 30.4.2(@types/node@24.12.3)
+        version: 30.4.2(@types/node@24.12.4)
       prettier:
         specifier: ^3.0.3
         version: 3.8.3
       ts-jest:
         specifier: ^29.1.1
-        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.3))(typescript@6.0.3)
+        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.4))(typescript@6.0.3)
       tsconfig:
         specifier: workspace:^
         version: link:../tsconfig
@@ -189,19 +189,19 @@ importers:
         version: 30.0.0
       '@types/node':
         specifier: ^24.0.0
-        version: 24.12.3
+        version: 24.12.4
       eslint-config-tssg-pkg:
         specifier: workspace:^
         version: link:../eslint-config-tssg-pkg
       jest:
         specifier: ^30.0.0
-        version: 30.4.2(@types/node@24.12.3)
+        version: 30.4.2(@types/node@24.12.4)
       prettier:
         specifier: ^3.0.3
         version: 3.8.3
       ts-jest:
         specifier: ^29.1.1
-        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.3))(typescript@6.0.3)
+        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.4))(typescript@6.0.3)
       tsconfig:
         specifier: workspace:^
         version: link:../tsconfig
@@ -216,19 +216,19 @@ importers:
         version: 30.0.0
       '@types/node':
         specifier: ^24.0.0
-        version: 24.12.3
+        version: 24.12.4
       eslint-config-tssg-pkg:
         specifier: workspace:^
         version: link:../eslint-config-tssg-pkg
       jest:
         specifier: ^30.0.0
-        version: 30.4.2(@types/node@24.12.3)
+        version: 30.4.2(@types/node@24.12.4)
       prettier:
         specifier: ^3.0.3
         version: 3.8.3
       ts-jest:
         specifier: ^29.1.1
-        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.3))(typescript@6.0.3)
+        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.4))(typescript@6.0.3)
       tsconfig:
         specifier: workspace:^
         version: link:../tsconfig
@@ -247,19 +247,19 @@ importers:
         version: 30.0.0
       '@types/node':
         specifier: ^24.0.0
-        version: 24.12.3
+        version: 24.12.4
       eslint-config-tssg-pkg:
         specifier: workspace:^
         version: link:../eslint-config-tssg-pkg
       jest:
         specifier: ^30.0.0
-        version: 30.4.2(@types/node@24.12.3)
+        version: 30.4.2(@types/node@24.12.4)
       prettier:
         specifier: ^3.0.3
         version: 3.8.3
       ts-jest:
         specifier: ^29.1.1
-        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.3))(typescript@6.0.3)
+        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.4))(typescript@6.0.3)
       tsconfig:
         specifier: workspace:^
         version: link:../tsconfig
@@ -274,19 +274,19 @@ importers:
         version: 30.0.0
       '@types/node':
         specifier: ^24.0.0
-        version: 24.12.3
+        version: 24.12.4
       eslint-config-tssg-pkg:
         specifier: workspace:^
         version: link:../eslint-config-tssg-pkg
       jest:
         specifier: ^30.0.0
-        version: 30.4.2(@types/node@24.12.3)
+        version: 30.4.2(@types/node@24.12.4)
       prettier:
         specifier: ^3.0.3
         version: 3.8.3
       ts-jest:
         specifier: ^29.1.1
-        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.3))(typescript@6.0.3)
+        version: 29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.4))(typescript@6.0.3)
       tsconfig:
         specifier: workspace:^
         version: link:../tsconfig
@@ -749,6 +749,9 @@ packages:
 
   '@types/node@24.12.3':
     resolution: {integrity: sha512-8oljBDGun9cIsZRJR6fkihn0TSXJI0UDOOhncYaERq6M0JMDoPLxyscwruJcb4GKS6dvK/d8xebYBg27h/duaQ==}
+
+  '@types/node@24.12.4':
+    resolution: {integrity: sha512-GUUEShf+PBCGW2KaXwcIt3Yk+e3pkKwWKb9GSyM9WQVE+ep2jzmHdGsHzu4wgcZy5fN9FBdVzjpBQsYlpfpgLA==}
 
   '@types/node@25.6.2':
     resolution: {integrity: sha512-sokuT28dxf9JT5Kady1fsXOvI4HVpjZa95NKT5y9PNTIrs2AsobR4GFAA90ZG8M+nxVRLysCXsVj6eGC7Vbrlw==}
@@ -3292,6 +3295,10 @@ snapshots:
     dependencies:
       undici-types: 7.16.0
 
+  '@types/node@24.12.4':
+    dependencies:
+      undici-types: 7.16.0
+
   '@types/node@25.6.2':
     dependencies:
       undici-types: 7.19.2
@@ -4012,7 +4019,7 @@ snapshots:
       eslint: 10.3.0
     optionalDependencies:
       '@typescript-eslint/eslint-plugin': 8.59.2(@typescript-eslint/parser@8.59.2(eslint@10.3.0)(typescript@6.0.3))(eslint@10.3.0)(typescript@6.0.3)
-      jest: 30.4.2(@types/node@24.12.3)
+      jest: 30.4.2
       typescript: 6.0.3
     transitivePeerDependencies:
       - supports-color
@@ -4521,7 +4528,7 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  jest-cli@30.4.2(@types/node@24.12.3):
+  jest-cli@30.4.2:
     dependencies:
       '@jest/core': 30.4.2
       '@jest/test-result': 30.4.1
@@ -4529,7 +4536,7 @@ snapshots:
       chalk: 4.1.2
       exit-x: 0.2.2
       import-local: 3.2.0
-      jest-config: 30.4.2(@types/node@24.12.3)
+      jest-config: 30.4.2
       jest-util: 30.4.1
       jest-validate: 30.4.1
       yargs: 17.7.2
@@ -4539,6 +4546,56 @@ snapshots:
       - esbuild-register
       - supports-color
       - ts-node
+    optional: true
+
+  jest-cli@30.4.2(@types/node@24.12.4):
+    dependencies:
+      '@jest/core': 30.4.2
+      '@jest/test-result': 30.4.1
+      '@jest/types': 30.4.1
+      chalk: 4.1.2
+      exit-x: 0.2.2
+      import-local: 3.2.0
+      jest-config: 30.4.2(@types/node@24.12.4)
+      jest-util: 30.4.1
+      jest-validate: 30.4.1
+      yargs: 17.7.2
+    transitivePeerDependencies:
+      - '@types/node'
+      - babel-plugin-macros
+      - esbuild-register
+      - supports-color
+      - ts-node
+
+  jest-config@30.4.2:
+    dependencies:
+      '@babel/core': 7.29.0
+      '@jest/get-type': 30.1.0
+      '@jest/pattern': 30.4.0
+      '@jest/test-sequencer': 30.4.1
+      '@jest/types': 30.4.1
+      babel-jest: 30.4.1(@babel/core@7.29.0)
+      chalk: 4.1.2
+      ci-info: 4.4.0
+      deepmerge: 4.3.1
+      glob: 10.5.0
+      graceful-fs: 4.2.11
+      jest-circus: 30.4.2
+      jest-docblock: 30.4.0
+      jest-environment-node: 30.4.1
+      jest-regex-util: 30.4.0
+      jest-resolve: 30.4.1
+      jest-runner: 30.4.2
+      jest-util: 30.4.1
+      jest-validate: 30.4.1
+      parse-json: 5.2.0
+      pretty-format: 30.4.1
+      slash: 3.0.0
+      strip-json-comments: 3.1.1
+    transitivePeerDependencies:
+      - babel-plugin-macros
+      - supports-color
+    optional: true
 
   jest-config@30.4.2(@types/node@24.12.3):
     dependencies:
@@ -4567,6 +4624,37 @@ snapshots:
       strip-json-comments: 3.1.1
     optionalDependencies:
       '@types/node': 24.12.3
+    transitivePeerDependencies:
+      - babel-plugin-macros
+      - supports-color
+
+  jest-config@30.4.2(@types/node@24.12.4):
+    dependencies:
+      '@babel/core': 7.29.0
+      '@jest/get-type': 30.1.0
+      '@jest/pattern': 30.4.0
+      '@jest/test-sequencer': 30.4.1
+      '@jest/types': 30.4.1
+      babel-jest: 30.4.1(@babel/core@7.29.0)
+      chalk: 4.1.2
+      ci-info: 4.4.0
+      deepmerge: 4.3.1
+      glob: 10.5.0
+      graceful-fs: 4.2.11
+      jest-circus: 30.4.2
+      jest-docblock: 30.4.0
+      jest-environment-node: 30.4.1
+      jest-regex-util: 30.4.0
+      jest-resolve: 30.4.1
+      jest-runner: 30.4.2
+      jest-util: 30.4.1
+      jest-validate: 30.4.1
+      parse-json: 5.2.0
+      pretty-format: 30.4.1
+      slash: 3.0.0
+      strip-json-comments: 3.1.1
+    optionalDependencies:
+      '@types/node': 24.12.4
     transitivePeerDependencies:
       - babel-plugin-macros
       - supports-color
@@ -4830,12 +4918,26 @@ snapshots:
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
-  jest@30.4.2(@types/node@24.12.3):
+  jest@30.4.2:
     dependencies:
       '@jest/core': 30.4.2
       '@jest/types': 30.4.1
       import-local: 3.2.0
-      jest-cli: 30.4.2(@types/node@24.12.3)
+      jest-cli: 30.4.2
+    transitivePeerDependencies:
+      - '@types/node'
+      - babel-plugin-macros
+      - esbuild-register
+      - supports-color
+      - ts-node
+    optional: true
+
+  jest@30.4.2(@types/node@24.12.4):
+    dependencies:
+      '@jest/core': 30.4.2
+      '@jest/types': 30.4.1
+      import-local: 3.2.0
+      jest-cli: 30.4.2(@types/node@24.12.4)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -5391,12 +5493,12 @@ snapshots:
     dependencies:
       typescript: 6.0.3
 
-  ts-jest@29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.3))(typescript@6.0.3):
+  ts-jest@29.4.9(@babel/core@7.29.0)(@jest/transform@30.4.1)(@jest/types@30.4.1)(babel-jest@30.4.1(@babel/core@7.29.0))(jest-util@30.4.1)(jest@30.4.2(@types/node@24.12.4))(typescript@6.0.3):
     dependencies:
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
       handlebars: 4.7.9
-      jest: 30.4.2(@types/node@24.12.3)
+      jest: 30.4.2(@types/node@24.12.4)
       json5: 2.2.3
       lodash.memoize: 4.1.2
       make-error: 1.3.6
